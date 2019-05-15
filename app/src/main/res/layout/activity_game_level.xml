@@ -1,0 +1,71 @@
+<?xml
+    version="1.0"
+    encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameLevel">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/level1_textview"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:background="@color/category_family"
+        android:text="المستوي الاول"
+        android:paddingLeft="15dp"
+        android:textColor="#FFF"
+        android:onClick="ChooseLevel"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/level2_textview"
+        android:gravity="center_vertical"
+        android:paddingRight="15dp"
+        android:textSize="30dp"
+        android:background="@color/category_colors"
+        android:text="المستوي الثاني"
+        android:paddingLeft="15dp"
+        android:textColor="#FFF"
+        android:onClick="ChooseLevel"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/level3_textview"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:background="@color/category_phrases"
+        android:text="المستوي الثالث"
+        android:paddingLeft="15dp"
+        android:textColor="#FFF"
+        android:onClick="ChooseLevel"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/level4_textview"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:background="@color/category_numbers"
+        android:text="المستوي الرابع"
+        android:paddingLeft="15dp"
+        android:textColor="#FFF"
+        android:onClick="ChooseLevel"
+        />
+
+
+</LinearLayout>
